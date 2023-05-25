@@ -20,14 +20,15 @@ const PopularMenu = () => {
         subHeading={"Check it out"}
       ></SectionTitle>
       <div className="grid md:grid-cols-2 gap-10">
-        {
-            menu.map(item => <MenuItems
-            key={item._id}
-            item={item}
-            ></MenuItems>)
-        }
+        {menu.map((item) => (
+          <MenuItems key={item._id} item={item}></MenuItems>
+        ))}
       </div>
-      <button className="btn btn-outline border-0 border-b-4 mt-4">View Full Menu</button>
+      <div className="flex justify-center items-center">
+        <button className="btn btn-outline border-0 border-b-4 mt-8">
+          View Full Menu
+        </button>
+      </div>
     </section>
   );
 };
