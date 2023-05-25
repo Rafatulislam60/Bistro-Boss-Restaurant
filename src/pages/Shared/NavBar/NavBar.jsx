@@ -60,7 +60,7 @@ const NavBar = () => {
                 {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case font-bold text-2xl">
+          <a className="btn btn-ghost normal-case font-bold text-xl">
             BISTRO BOSS <br /> RESTAURANT
           </a>
         </div>

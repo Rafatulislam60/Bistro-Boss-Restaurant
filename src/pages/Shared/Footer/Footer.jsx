@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="footer p-10 text-white bg-[#111827]">
         <div className="">
-          <h2 className="text-lg mb-6">CONTACT US</h2>
+          <h2 className="text-lg font-semibold mb-6">CONTACT US</h2>
           <p>123 ABS Street, Uni 21, Bangladesh</p>
           <p>+88 123456789</p>
           <p>Mon - Fri: 08:00 - 22:00</p>
