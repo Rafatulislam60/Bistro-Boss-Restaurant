@@ -37,7 +37,7 @@ const Menu = () => {
       {/* dessert menu items */}
       <MenuCategory
         items={desserts}
-        title={"Dessert"}
+        title={"dessert"}
         img={dessertImg}
         subTitle={
           "Decadent desserts to satisfy your sweet cravings. From luscious cakes to creamy treats, our desserts are a heavenly delight. Indulge yourself and order now!"
@@ -46,7 +46,7 @@ const Menu = () => {
       {/* pizza menu items */}
       <MenuCategory
         items={pizza}
-        title={"Pizza"}
+        title={"pizza"}
         img={pizzaImg}
         subTitle={
           "Delicious pizzas with a variety of mouthwatering toppings. Perfectly baked crusts. Guaranteed satisfaction. Order now and indulge your taste buds!"
@@ -55,7 +55,7 @@ const Menu = () => {
       {/* salad menu items */}
       <MenuCategory
         items={salad}
-        title={"Salad"}
+        title={"salad"}
         img={saladImg}
         subTitle={
           "Tantalizing soups and fresh salads, bursting with flavors and nutritious ingredients. Healthy and satisfying options to complement your meal. Order now and enjoy!"
@@ -64,7 +64,7 @@ const Menu = () => {
       {/* soup menu items */}
       <MenuCategory
         items={soup}
-        title={"Soup"}
+        title={"soup"}
         img={soupImg}
         subTitle={
           "Hot, savory soups made with love. Rich flavors, comforting textures. From classic to exotic, our soups will warm your soul. Order now and savor the goodness!"
