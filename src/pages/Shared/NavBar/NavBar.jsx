@@ -4,13 +4,13 @@ const NavBar = () => {
   const navOptions = (
     <>
       <li>
-        <Link to='/'>Home</Link>
+        <Link to="/">HOME</Link>
       </li>
       <li>
-        <Link to='/menu'>Our Menu</Link>
+        <Link to="/menu">OUR MENU</Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link to="/order">ORDER FOOD</Link>
       </li>
     </>
   );
@@ -40,17 +40,15 @@ const NavBar = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-                {navOptions}
+              {navOptions}
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost normal-case font-bold text-xl">
+          <Link to="/" className="btn btn-ghost normal-case font-bold text-xl">
             BISTRO BOSS <br /> RESTAURANT
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {navOptions}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Get started</a>
