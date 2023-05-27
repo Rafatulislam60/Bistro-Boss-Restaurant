@@ -10,7 +10,10 @@ const NavBar = () => {
         <Link to="/menu">OUR MENU</Link>
       </li>
       <li>
-        <Link to="/order">ORDER FOOD</Link>
+        <Link to="/order/salad">ORDER FOOD</Link>
+      </li>
+      <li>
+        <Link to="/login">LOGIN</Link>
       </li>
     </>
   );
@@ -38,7 +41,7 @@ const NavBar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black"
             >
               {navOptions}
             </ul>
